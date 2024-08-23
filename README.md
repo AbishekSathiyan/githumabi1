@@ -1,45 +1,45 @@
-# Student-Portfolio
+# How to Run My Portfolio Site Locally
 
-To Open Student Portfolio Site in my Local Host
+# Step 1: Install `serve` to Host My Webpage Locally
 
-Step 1: Install Serve
-
-using this command
+To run My portfolio site on your local machine, I need to install `serve`. You can do this globally with npm by running the following command in your terminal:
 
 npm install -g serve
 
-Step 2: Navigate to My Project Directory
+
+This will install `serve` globally, making it available to host My site.
+
+# Step 2: Navigate to Your Project Directory
+
+
+Use the command prompt to navigate to the directory where My portfolio project is located. Replace the path below with the path to your project directory:
+
 
 cd C:\Users\91709\Desktop\Intern Mini\Abishek Portfolio
 
-Step 3: Run the Serve Command
 
-serve 
+# Step 3: Start the Local Server
+To start serving My portfolio site, simply run the `serve` command:
 
-Received Local Address and Network Address 
+"serve"
 
-Step 4: Access Your Site
+This will start a local server, and you will see the local and network addresses where My site is being served.
 
-   |    Serving!                              │
-   │                                          │
-   │   - Local:    http://localhost:3000      │
-   │   - Network:  http://172.28.224.1:3000   │
+# Step 4: Access My Site in the Browser
+Once the server is running, you can access My site by opening the local address in your web browser:
 
+- **Local Address:** [http://localhost:3000](http://localhost:3000)
+- **Network Address:** [http://172.28.224.1:3000](http://172.28.224.1:3000) (optional)
 
- HTTP  8/22/2024 3:48:28 PM ::1 GET /
- HTTP  8/22/2024 3:48:28 PM ::1 Returned 200 in 57 ms
- HTTP  8/22/2024 3:48:28 PM ::1 GET /styles/style.css
- HTTP  8/22/2024 3:48:28 PM ::1 GET /assets/images/Mine.jpg
- HTTP  8/22/2024 3:48:28 PM ::1 GET /scripts/app.js
- HTTP  8/22/2024 3:48:28 PM ::1 Returned 200 in 21 ms
- HTTP  8/22/2024 3:48:28 PM ::1 Returned 200 in 17 ms
- HTTP  8/22/2024 3:48:28 PM ::1 Returned 200 in 18 ms
+### Step 5: Stop the Server
+To stop the server, go back to the terminal where the server is running and press `CTRL + C`.
+
+You should see a message indicating that the server is shutting down:
 
 
-Step 5: Stop the Server
+INFO  Gracefully shutting down. Please wait...
 
- I can stop the server by going back to the terminal and pressing CTRL + C.
 
- INFO  Gracefully shutting down. Please wait...
+That's it! My portfolio site should now be up and running on your local machine.
 
- 
+These are the Steps to Host My Portfolio Project in My Local Machine using the Serve.
