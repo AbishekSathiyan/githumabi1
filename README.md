@@ -43,3 +43,6 @@ INFO  Gracefully shutting down. Please wait...
 That's it! My portfolio site should now be up and running on your local machine.
 
 These are the Steps to Host My Portfolio Project in My Local Machine using the Serve.
+
+
+![Portfolio Screenshot](https://github.com/user-attachments/assets/0539d4e8-dac9-4d7b-9bce-fc80f83250fb)
